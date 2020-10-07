@@ -24,6 +24,7 @@ end
 def square_array(numbers)
   new_num = []
   numbers.each {|num| new_num.push(num * num)}
+  return new_num
 end
 
 def square_array(numbers)
