@@ -24,6 +24,6 @@ end
 def square_array(num)
   new_num = []
   numbers.each do |squared|
-    squared << [num]
+    squared << [num ** 2]
   end
 end
