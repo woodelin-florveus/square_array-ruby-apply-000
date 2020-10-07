@@ -20,3 +20,6 @@ describe '#square_array' do
   end
 
 end
+
+def square_array(num)
+end
