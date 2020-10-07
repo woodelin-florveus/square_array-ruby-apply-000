@@ -22,4 +22,7 @@ describe '#square_array' do
 end
 
 def square_array(num)
+  numbers.each do |squared|
+    squared * 2
+  end
 end
