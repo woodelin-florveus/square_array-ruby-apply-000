@@ -23,10 +23,7 @@ end
 
 def square_array(numbers)
   new_num = []
-  numbers.each do |squared|
-    squared << [num ** 2]
-  end
-  return new_num
+  numbers.each {|num| new_num.push(num * num)}
 end
 
 def square_array(numbers)
