@@ -21,7 +21,7 @@ describe '#square_array' do
 
 end
 
-def square_array(num)
+def square_array(numbers)
   new_num = []
   numbers.each do |squared|
     squared << [num ** 2]
