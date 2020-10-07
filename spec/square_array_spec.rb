@@ -26,4 +26,5 @@ def square_array(num)
   numbers.each do |squared|
     squared << [num ** 2]
   end
+  return new_num
 end
